@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.21)  24 MAR 2026 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.21)  24 MAR 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -956,17 +956,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.210 
        [1]
-<assets/McLaren Senna.jpg, id=52, 2509.375pt x 1906.12125pt>
+<assets/McLaren Senna.jpg, id=53, 2509.375pt x 1906.12125pt>
 File: assets/McLaren Senna.jpg Graphic file (type jpg)
 <use assets/McLaren Senna.jpg>
 Package pdftex.def Info: assets/McLaren Senna.jpg  used on input line 236.
 (pdftex.def)             Requested size: 350.33727pt x 266.09894pt.
-<assets/1 (1).png, id=53, 215.30438pt x 173.89969pt>
+<assets/1 (1).png, id=54, 215.30438pt x 173.89969pt>
 File: assets/1 (1).png Graphic file (type png)
 <use assets/1 (1).png>
 Package pdftex.def Info: assets/1 (1).png  used on input line 246.
 (pdftex.def)             Requested size: 225.21626pt x 181.91013pt.
-<assets/1 (2).png, id=54, 217.5628pt x 172.39406pt>
+<assets/1 (2).png, id=55, 217.5628pt x 172.39406pt>
 File: assets/1 (2).png Graphic file (type png)
 <use assets/1 (2).png>
 Package pdftex.def Info: assets/1 (2).png  used on input line 253.
@@ -1007,17 +1007,17 @@ Package rerunfilecheck Info: File `reporte.out' has not changed.
 (rerunfilecheck)             Checksum: 8BBE990A3601CAF4BD228768C5AE4309;200.
  ) 
 Here is how much of TeX's memory you used:
- 24051 strings out of 467867
- 449999 string characters out of 5418334
+ 24050 strings out of 467867
+ 449983 string characters out of 5418334
  852979 words of memory out of 5000000
- 52518 multiletter control sequences out of 15000+600000
- 745968 words of font info for 120 fonts, out of 8000000 for 9000
+ 52517 multiletter control sequences out of 15000+600000
+ 742971 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,104p,498b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\danws\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/danws/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/danws/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/danws/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/danws/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on reporte.pdf (6 pages, 2757637 bytes).
+Output written on reporte.pdf (6 pages, 2760909 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
