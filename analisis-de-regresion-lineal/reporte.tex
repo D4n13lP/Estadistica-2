@@ -1,4 +1,4 @@
-\documentclass[letterpaper]{article}
+\documentclass[letterpaper, 12pt]{article}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage[margin=2cm]{geometry}
@@ -34,6 +34,7 @@
 \fancyhead[R]{Actividad 3: Análisis de regresión lineal}
 \definecolor{azulunam}{RGB}{0, 43, 122}
 \definecolor{doradounam}{RGB}{199, 146, 19}
+\newcommand{\escudomargen}{1cm}
 
 
 \begin{document}
@@ -52,12 +53,12 @@
         }
 
         \begin{tikzpicture}[remember picture, overlay]
-            \node[anchor=center] 
-            at ([xshift=8.2cm,yshift=11.5cm]current page.center) {
+            \node[anchor=east] 
+            at ([xshift=-\escudomargen,yshift=11.5cm]current page.east) {
                 \includegraphics[height=2cm]{escudo_mac.jpg}
             };
-            \node[anchor=center] 
-            at ([xshift=-8.6cm,yshift=11.5cm]current page.center) {
+            \node[anchor=west] 
+            at ([xshift=\escudomargen,yshift=11.5cm]current page.west) {
                 \includegraphics[height=2.6cm]{escudo-a.png}
             };
             % Linea horizontal
@@ -70,8 +71,8 @@
             ([xshift=-8.6cm,yshift=9.5cm]current page.center);
         \end{tikzpicture}
         \begin{center}
-            {\Large \textbf{\textsc{UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}} \vspace{0.8cm} }\\
-            {\large \textbf{\textsc{FACULTAD DE ESTUDIOS SUPERIORES ACATLÁN}} \vspace{0.8cm} }\\
+            {\fontsize{14.4}{16}\selectfont \textbf{\textsc{UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}} \vspace{0.5cm} }\\
+            {\fontsize{12}{14}\selectfont \textbf{\textsc{FACULTAD DE ESTUDIOS SUPERIORES ACATLÁN}} \vspace{0.8cm} }\\
             \vspace{1cm}
             {\textsc{División de Matemáticas e Ingenierias}} \\
             \vspace{0.8cm}
@@ -85,22 +86,22 @@
                 Profesor: Jaime Vergara Prado
             \end{minipage}\\
             \vspace{0.8cm}
-            {\Large Actividad 3: \\ \vspace{0.3cm} \textbf{Análisis de regresión lineal}}
+            {\fontsize{14.4}{18}\selectfont Actividad 3: \\ \vspace{0.3cm} \textbf{Análisis de regresión lineal}}
 
             \begin{table}[h]
                 \centering
                 \vspace{0.3cm}
                 {\fontsize{15}{18}\selectfont
-                \begin{tabular}{l c c} % 'l' izquierda, 'c' centro, 'c' centro
+                \begin{tabular}{l l} % 'l' izquierda, 'c' centro, 'c' centro
                     % No ponemos '|' entre las letras para evitar líneas verticales
                     
-                    Presenta: &  Cortés Cortés Bryan Yael\\
+                    Presenta: &  \textbullet\ Cortés Cortés Bryan Yael\\
                     %\addlinespace[0.3cm] % Espacio extra entre filas sin líneas
-                       &  Pineda Ortega Daniel\\
-                       &  Rodríguez Mérida Diego\\
-                       &  Romero Minchaca Esteban\\
-                       &  Sánchez Santos Denisse Alejandra\\
-                       &  Suriano Granados Duncan Zuriel
+                       &  \textbullet\ Pineda Ortega Daniel\\
+                       &  \textbullet\ Rodríguez Mérida Diego\\
+                       &  \textbullet\ Romero Minchaca Esteban\\
+                       &  \textbullet\ Sánchez Santos Denisse Alejandra\\
+                       &  \textbullet\ Suriano Granados Duncan Zuriel
                     
                 \end{tabular}
                 }
@@ -108,6 +109,7 @@
 
             \begin{table}[h]
                 \centering
+                {\fontsize{12}{14}\selectfont
                 \caption*{Registro de evaluación}
                 \renewcommand{\arraystretch}{1.5} % 1 es el normal, 1.5 es ideal
                 \begin{tabular}{|l|c|c|r|} % Las barras '|' crean las líneas verticales
@@ -120,10 +122,11 @@
                     Sánchez Santos Denisse Alejandra          & 100 \%                 & 0\%            & 0\%\\ \hline
                     Suriano Granados Duncan Zuriel          & 100 \%                 & 0\%            & 0\%\\ \hline
                 \end{tabular}
+                }
             \end{table} \vspace{0.8cm}
 
             Grupo: 2651 \\ \vspace{0.8cm}
-            \hspace{5cm} Fecha de entrega: 09 de abril de 2026 
+            \hspace{5.5cm} Fecha de entrega: 09 de abril de 2026 
 
             
         \end{center}
